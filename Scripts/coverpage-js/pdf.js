@@ -26,7 +26,7 @@ function savePdf()
   doc.text("(Affiliated To Savitribai Phule Pune University)",105,50,null,null,"center")
   doc.setFontSize(textSize)
     //-------------COLLEGE LOGO PART------------------
-   //----doc.addImage("images/college-logo.png","PNG",80,58,60,60,"center")
+  doc.addImage("images/college-logo.png","PNG",80,58,60,60,"center")
       //-------------Subject Title Part----------------
   doc.setFont("times","normal")
   doc.setFontSize(22)
